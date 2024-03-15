@@ -32,8 +32,8 @@
                     <td><?= $value['pengarang'] ?></td>
                     <td><?= $value['tahun_terbit'] ?></td>
                     <td>
-                        <a href="edit.php?id=<?= $value['id_buku'] ?>">Edit </a>
-                        <a href="hapus.php?id=<?= $value['id_buku'] ?>"> Hapus</a>
+                        <a href="edit.php?id_buku=<?= $value['id_buku'] ?>">Edit </a>
+                        <a href="hapus.php?id_buku=<?= $value['id_buku'] ?>"> Hapus</a>
 
                     </td>
                 </tr>
